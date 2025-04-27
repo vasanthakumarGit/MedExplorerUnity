@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Nervous
+  m_EditorClassIdentifier: 
+  categoryName: Nervous
+  questions:
+  - questionInfo: What is the main function of the nervous system?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Circulate blood
+    - Break down food
+    - Control and coordinate body activities
+    - Build muscles
+    correctAns: Control and coordinate body activities
+  - questionInfo: Which part of the brain controls balance and coordination?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cerebrum
+    - Cerebellum
+    - Brainstem
+    - Spinal cord
+    correctAns: Cerebellum
+  - questionInfo: What is the basic unit of the nervous system?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cell wall
+    - Muscle fiber
+    - Neuron
+    - Tendon
+    correctAns: Neuron
+  - questionInfo: What is the job of sensory nerves?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Move muscles
+    - ' Send signals from the brain to organs'
+    - Carry messages from sense organs to the brain
+    - Control the heartbeat
+    correctAns: Carry messages from sense organs to the brain
+  - questionInfo: What protects the spinal cord?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Skull
+    - Ribs
+    - Vertebrae
+    - Skin
+    correctAns: Vertebrae

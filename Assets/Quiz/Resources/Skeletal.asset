@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Skeletal
+  m_EditorClassIdentifier: 
+  categoryName: Skeletal
+  questions:
+  - questionInfo: What is the main function of the skeletal system?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Produce hormones
+    - ' Help in breathing'
+    - Provide support and protection
+    - Control body temperature
+    correctAns: Provide support and protection
+  - questionInfo: How many ribs does a typical human have?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 10 pairs
+    - 12 pairs
+    - 14 pairs
+    - 16 pairs
+    correctAns: 12 pairs
+  - questionInfo: Which of these bones is found in the arm?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tibia
+    - Femur
+    - Humerus
+    - Fibula
+    correctAns: Humerus
+  - questionInfo: What connects bones to other bones at joints?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tendons
+    - Ligaments
+    - Cartilage
+    - Muscles
+    correctAns: Ligaments
+  - questionInfo: What protects the spinal cord?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Skull
+    - Pelvis
+    - Rib cage
+    - Vertebral column
+    correctAns: Vertebral column

@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 7b49a3b11227dcf4e9e087f8fa633ba0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 04b68e58dcc5425ca0902c9bba95e904_RGB_Skull_Albedo
+    second: {fileID: 2800000, guid: 278b4ad352555e5438b34f8c0fbb6814, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 121eadc86eeb472899abb7a6e8c4df64_R_Pelvis_Roughness
+    second: {fileID: 2800000, guid: 36c6bfdbadad22146b148428bad36921, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1232747193bd4e139a421cf726d44bb6_N_Shorts_Normal
+    second: {fileID: 2800000, guid: de71c4cdbd8a5aa4cbe1debafb51d234, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 125742c279744196b5a88fdb6b956425_N_Legs_Normal_DirectX
+    second: {fileID: 2800000, guid: c41e42c5a72baae4f8244fe41051b9e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1d625a50145741b281fc2a32b2308fc8_N_Galbladder_Mat_Normal_DirectX
+    second: {fileID: 2800000, guid: c03cb76f2c7c97541bf42f543982a5e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1e711ef30e604d6aa39eea3b35a2e7a6_N_Spine_Normal_DirectX
+    second: {fileID: 2800000, guid: b1453e178a472ff4384a99faed15c4e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1ee5c400095e416aa32a0a35b03eaf3c_R_eye_Opacity
+    second: {fileID: 2800000, guid: 5c4a2b9225d85cd4fa2722e502009dec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1ff83bfcfa4640a48a47098549625b6d_R_eye_Roughness
+    second: {fileID: 2800000, guid: 55357cbf87acc3249904c4de9ce7adb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 21549e20280d4ff3a75ddf0be0cff447_R_Diafragma_Roughness
+    second: {fileID: 2800000, guid: e6fe3a893c55e6e4aa9a3c57c09892e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 23c42a5b128149c5a031a7ff54f06006_RGB_CirculatorySystem_albedo
+    second: {fileID: 2800000, guid: 0577360be3fb02a4bbb5cf2bf59ea82b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 246458f7454d4fd388702426156964a2_RGB_Heart_Albedo
+    second: {fileID: 2800000, guid: 358da8580261f2c4094fd43618d30ede, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 30cf824adaf3463ca0873ccdd106f4cc_R_Hands_Roughness
+    second: {fileID: 2800000, guid: 9def6991acfe8694a9e7e63a74f92f27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 37ce0e02166e4481b951df55af89e74c_R_Heart_Roughness
+    second: {fileID: 2800000, guid: b980c481fba8623448471f93b342be2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3f501e832adf48c08508dc83416ce921_R_Brain_Roughness
+    second: {fileID: 2800000, guid: e45719c857200344eae39d7908821fe0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 48f7ae2f1a3a49de9010d1bdf6006369_R_Shorts_Roughness
+    second: {fileID: 2800000, guid: 77b1e69dd93b62943b23117c5600e466, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 49d85a1b7369457e876337c6bd18eb4a_RGB_Muscles_MusclesPart_1_BaseColor
+    second: {fileID: 2800000, guid: 8eda03aefac209d4baba451d52652f81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 4c958255ffe44dcfa44d1a20e26e0718_N_lungs_LP_normal
+    second: {fileID: 2800000, guid: b1eac84c44c9e6642a1413b08e833423, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 51e1f50916be4ee5a6e1518426d311f8_R_Muscles_MusclesPart_3_Roughness
+    second: {fileID: 2800000, guid: 8b2b76f4fe1bdfe4897533bf79474521, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 54fba0c83ccb4ab2860d4bb18fe48f75_R_Urinary_System_Roughness
+    second: {fileID: 2800000, guid: f7e90573617d7ee439972fa9caf2f665, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 59f728132a3342a2a80cda9706330089_N_Skull_Normal_DirectX
+    second: {fileID: 2800000, guid: b13b35c59f8557449aaf234c1c73f855, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 62e63a1bcf984eedb94cabdc5d74e537_N_Hands_Normal_DirectX
+    second: {fileID: 2800000, guid: 45b224e38323d034a97d3583fedfb1d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 64c67ca276ba4227ba0f88fe956693f1_RGB_eye_Albedo
+    second: {fileID: 2800000, guid: 16ee3800fe689f04e846187118a591e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 6898e8b212dd49df930b887ec3da0e94_RGB_DigestiveSystem_Albedo
+    second: {fileID: 2800000, guid: 24f7ca6ef5d3d524eaedc3891da8d092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 712248effea248e9974f2402fede6089_RGB_HumanSkin_BaseColor
+    second: {fileID: 2800000, guid: fcbdc465742e7d643adf7c7b2aa30c17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 79f4e97d3a7a414f85ebe54caf9c03cc_N_eye_Normal_DirectX
+    second: {fileID: 2800000, guid: 3d7687a07abbd2a4b9534a947ee62a9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7b091ab1cfe34e00978492b4e13e48a0_N_CirculatorySystem_normal
+    second: {fileID: 2800000, guid: b073454b8b758b94ba8a592ae1413044, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 802b2a07e9b04252a78efe0c2acb72e6_RGB_Muscles_MusclesPart_2_BaseColor
+    second: {fileID: 2800000, guid: 6a3a6fe1a8a8f134799ab9faa0611f51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 874837fa2d694442b8f68d7c9034090e_RGB_Diafragma_Albedo
+    second: {fileID: 2800000, guid: e7a1b686dc8273944aad2f787fded57d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8cea504da42e4525ba7725a56fa31b1f_R_HumanSkin_Opacity
+    second: {fileID: 2800000, guid: 8370e17cc92a4b643bea0506f7158769, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8f38733d017549b58316a3dc254e4426_N_Muscles_MusclesPart_3_Normal
+    second: {fileID: 2800000, guid: 2e459d475e7c2cd448f60f7e6031325d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9511278ec8864684ab793e67b2b2b9fe_RGB_Hands_Albedo
+    second: {fileID: 2800000, guid: f9a878d28964da049bd405696459ed17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9cbc836c7a8d4009afba1a5985e7fb13_R_CirculatorySystem_roughness
+    second: {fileID: 2800000, guid: 468cb766d4e9df047b573dc246c53f53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9f9a23a5925a4d55aeb2d828576dc1c7_R_DigestiveSystem_Roughness
+    second: {fileID: 2800000, guid: 949fbc7bca3b9ea419e7b00f9df20332, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a36d2fe7e1924a80bdc8499b8a8199c6_RGB_Galbladder_Mat_Albedo
+    second: {fileID: 2800000, guid: 6dc920104dd736d48ad0f2e3930d82ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: a60e950c464a42408cd0ee4560ea171c_N_Muscles_MusclesPart_1_Normal
+    second: {fileID: 2800000, guid: bedc1e655c8f4204c854c659fa5ee000, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ae4ab451f4094c10b7cf599ac7aef390_RGB_Muscles_MusclesPart_3_BaseColor
+    second: {fileID: 2800000, guid: 410c585b116cc93418a609a4b194c14b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: b087b09fe3a24824829d2ea14d08864a_N_Heart_Normal_DirectX
+    second: {fileID: 2800000, guid: e32047a3c1fe2fc479b523aa37ddd71d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: b4036b2b8ede40e2808d419662a03656_RGB_Legs_Albedo
+    second: {fileID: 2800000, guid: 1cbba3786d2346a41a7dc7d73bbfe54c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ba61f31aba204822a948716091351b2c_RGB_Brain_Albedo
+    second: {fileID: 2800000, guid: 343d25ab9e4c2ff4ab1596cf63986f36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bcb51bc8dc4d488290bf849d62c6c590_N_Pelvis_Normal_DirectX
+    second: {fileID: 2800000, guid: a0925fcb3edc7fb458ef1b201d79c355, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: be1225264b6a45d886a84937745f53f8_N_Diafragma_Normal_DirectX
+    second: {fileID: 2800000, guid: b327f79515d6158469a12a7a3e807dcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bf0a189ca3fe4c11bbf2a23085f40140_R_Spine_Roughness
+    second: {fileID: 2800000, guid: 59f9d4ab631f688429ed8e0e2722ff9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c3c9de46d52244a78c175b26fcc5b362_R_Galbladder_Mat_Roughness
+    second: {fileID: 2800000, guid: f4a09131c1baac049b8906e5d26dbebe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: c7f0060d6c914f1cbf2358a631b70e80_N_DigestiveSystem_Normal_DirectX
+    second: {fileID: 2800000, guid: b8cc5d997e495884b9c81234654de568, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cd0df4747e7244f4b7e89dcefb7cef3d_RGB_Pelvis_Albedo
+    second: {fileID: 2800000, guid: 84cdd9b1db0bc98498734375e8876a73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cfdce4515d6745f1aaba586bc57e9629_N_Muscles_MusclesPart_2_Normal
+    second: {fileID: 2800000, guid: 208f27272a95b574e8cbb9254557061e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d0377be651504ec9ad54dd2107e16432_RGB_Shorts_BaseColor
+    second: {fileID: 2800000, guid: 7f258c1e00dcb2d449a2509f1b47d686, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d0e5566da993425cb649f8910ec14c16_R_Muscles_MusclesPart_1_Roughness
+    second: {fileID: 2800000, guid: 364b84219baefe442bf8109720288e85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d392c7031f9245a5beee7860a0fb3d9f_RGB_Liver_Mat_Albedo
+    second: {fileID: 2800000, guid: dc10506019d8df346b87963314d15fe2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: d73a7e3f94234ab3a6afbca80e79ae3d_R_Skull_Roughness
+    second: {fileID: 2800000, guid: acd87ba6515f31145b1af29bd133eeca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dc12894f6d24457f8851b47ba015b262_R_Legs_Roughness
+    second: {fileID: 2800000, guid: 4a4f5b921bd84ce48821180d157c78f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: df3e6d328fc949c084bfc37dd736da09_RGB_Urinary_System_Albedo
+    second: {fileID: 2800000, guid: 19b44c7f9de4995438b1c8dc2ab20282, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: e30623d1258b4e3fb740bb0ac229d132_N_Brain_Normal_DirectX
+    second: {fileID: 2800000, guid: be8387f76734a97449239ddbdb6c4f4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: e996d14b78604e52af341bf92e944d87_RGB_Spine_Albedo
+    second: {fileID: 2800000, guid: 24eb8b1645272ae4d91a8c21710ffd2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: efaa4c0d5d394c77a5d94b532b4ad660_RGB_lungs_LP_albedo
+    second: {fileID: 2800000, guid: aff2a8cd6caab044894737746fa793d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: f05980d68c8d47fa93725f5577007023_R_Muscles_MusclesPart_2_Roughness
+    second: {fileID: 2800000, guid: f9cdaedd2160d9a46a73bbfa057663c6, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
