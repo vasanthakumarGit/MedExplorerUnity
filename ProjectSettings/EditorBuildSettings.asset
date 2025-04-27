@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NewCapstone/Final/Auth/01_Home.unity
+    path: Assets/NewCapstone/Final/01_Home.unity
     guid: c6047d6c972614f4f8315d927b5490a4
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 41740466a2500cb499956a3c01e64398, type: 2}
