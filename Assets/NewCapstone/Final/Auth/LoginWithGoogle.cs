@@ -18,18 +18,41 @@ public class LoginWithGoogle : MonoBehaviour
     Firebase.Auth.FirebaseUser user;
 
     public TextMeshProUGUI Username, UserEmail;
-
     public Image UserProfilePic;
+    //public GameObject MenuPanel;
+    public AuthPageNavigator authUIMgr;
+
     private string imageUrl;
     private bool isGoogleSignInInitialized = false;
+
     private void Start()
     {
         InitFirebase();
+        CheckPreviousLogin();
     }
 
     void InitFirebase()
     {
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+    }
+
+    void CheckPreviousLogin()
+    {
+        if (PlayerPrefs.HasKey("UserName") && PlayerPrefs.HasKey("UserEmail") && PlayerPrefs.HasKey("UserPhoto"))
+        {
+            // Already logged in
+            string fullName = PlayerPrefs.GetString("UserName");
+            string firstName = fullName.Contains(" ") ? fullName.Split(' ')[0] : fullName;
+            Username.text = "Welcome, "+ firstName + "!";
+            UserEmail.text = PlayerPrefs.GetString("UserEmail");
+            StartCoroutine(LoadImage(PlayerPrefs.GetString("UserPhoto")));
+            authUIMgr.openMenuPage();
+        }
+        else
+        {
+            // Not logged in
+            authUIMgr.OpenStartingPage();
+        }
     }
 
     public void Login()
@@ -42,19 +65,18 @@ public class LoginWithGoogle : MonoBehaviour
                 WebClientId = GoogleAPI,
                 RequestEmail = true
             };
-
             isGoogleSignInInitialized = true;
         }
         GoogleSignIn.Configuration = new GoogleSignInConfiguration
         {
             RequestIdToken = true,
-            WebClientId = GoogleAPI
+            WebClientId = GoogleAPI,
+            RequestEmail = true
         };
-        GoogleSignIn.Configuration.RequestEmail = true;
 
         Task<GoogleSignInUser> signIn = GoogleSignIn.DefaultInstance.SignIn();
-
         TaskCompletionSource<FirebaseUser> signInCompleted = new TaskCompletionSource<FirebaseUser>();
+
         signIn.ContinueWith(task =>
         {
             if (task.IsCanceled)
@@ -65,12 +87,11 @@ public class LoginWithGoogle : MonoBehaviour
             else if (task.IsFaulted)
             {
                 signInCompleted.SetException(task.Exception);
-
                 Debug.Log("Faulted " + task.Exception);
             }
             else
             {
-                Credential credential = Firebase.Auth.GoogleAuthProvider.GetCredential(((Task<GoogleSignInUser>)task).Result.IdToken, null);
+                Credential credential = Firebase.Auth.GoogleAuthProvider.GetCredential(task.Result.IdToken, null);
                 auth.SignInWithCredentialAsync(credential).ContinueWith(authTask =>
                 {
                     if (authTask.IsCanceled)
@@ -80,22 +101,37 @@ public class LoginWithGoogle : MonoBehaviour
                     else if (authTask.IsFaulted)
                     {
                         signInCompleted.SetException(authTask.Exception);
-                        Debug.Log("Faulted In Auth " + task.Exception);
+                        Debug.Log("Faulted In Auth " + authTask.Exception);
                     }
                     else
                     {
-                        signInCompleted.SetResult(((Task<FirebaseUser>)authTask).Result);
+                        signInCompleted.SetResult(authTask.Result);
                         Debug.Log("Success");
+
                         user = auth.CurrentUser;
-                        Username.text = user.DisplayName;
+                        string fullName = user.DisplayName;
+                        string firstName = fullName.Contains(" ") ? fullName.Split(' ')[0] : fullName;
+                        Username.text = "Welcome, "+ firstName + "!";
                         UserEmail.text = user.Email;
 
-                        StartCoroutine(LoadImage(CheckImageUrl(user.PhotoUrl.ToString())));
+                        string profileUrl = CheckImageUrl(user.PhotoUrl.ToString());
+                        StartCoroutine(LoadImage(profileUrl));
+
+                        // Save user data locally
+                        PlayerPrefs.SetString("UserName", user.DisplayName);
+                        PlayerPrefs.SetString("UserEmail", user.Email);
+                        PlayerPrefs.SetString("UserPhoto", profileUrl);
+                        PlayerPrefs.Save();
+
+                        // Show MenuPanel
+                        //MenuPanel.SetActive(true);
+                        authUIMgr.openMenuPage();
                     }
                 });
             }
         });
     }
+
     private string CheckImageUrl(string url)
     {
         if (!string.IsNullOrEmpty(url))
@@ -113,15 +149,12 @@ public class LoginWithGoogle : MonoBehaviour
         if (www.result == UnityWebRequest.Result.Success)
         {
             Texture2D texture = DownloadHandlerTexture.GetContent(www);
-            // Use the loaded texture here
+            UserProfilePic.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
             Debug.Log("Image loaded successfully");
-            UserProfilePic.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0, 0));
         }
         else
         {
             Debug.Log("Error loading image: " + www.error);
         }
-
-
     }
 }

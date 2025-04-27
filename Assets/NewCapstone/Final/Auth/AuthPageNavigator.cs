@@ -7,6 +7,7 @@ public class AuthPageNavigator : MonoBehaviour
     public GameObject startingPage;
     public GameObject loginPage;
     public GameObject signupPage;
+    public GameObject menuPanel;
 
     [Header("Buttons")]
     public Button getStartedButton;
@@ -21,22 +22,31 @@ public class AuthPageNavigator : MonoBehaviour
         goToLoginButton.onClick.AddListener(OpenLoginPageFromSignup);
 
         // Initially show starting page only
+        //OpenStartingPage();
+    }
+
+    public void OpenStartingPage()
+    {
         startingPage.SetActive(true);
         loginPage.SetActive(false);
         signupPage.SetActive(false);
+        menuPanel.SetActive(false);
     }
+
 
     public void OpenLoginPage()
     {
         startingPage.SetActive(false);
         loginPage.SetActive(true);
         signupPage.SetActive(false);
+        menuPanel.SetActive(false);
     }
 
     public void OpenSignupPage()
     {
         startingPage.SetActive(false);
         loginPage.SetActive(false);
+        menuPanel.SetActive(false);
         signupPage.SetActive(true);
     }
 
@@ -45,5 +55,16 @@ public class AuthPageNavigator : MonoBehaviour
         startingPage.SetActive(false);
         loginPage.SetActive(true);
         signupPage.SetActive(false);
+        menuPanel.SetActive(false);
     }
+
+    public void openMenuPage()
+    {
+        menuPanel.SetActive(true);
+        startingPage.SetActive(false);
+        loginPage.SetActive(false);
+        signupPage.SetActive(false);
+    }
+
+
 }
