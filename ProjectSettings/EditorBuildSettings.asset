@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NewCapstone/Final/02.unity
     guid: cb4bde31774144f44917c17ebdc1dbaf
+  - enabled: 1
+    path: Assets/NewCapstone/Final/03.unity
+    guid: 4c8f0b3b301e37541a2e7da22619a2f8
+  - enabled: 1
+    path: Assets/NewCapstone/Final/04.unity
+    guid: fd27f59bb5dcecf4da64c2b49b4d8540
+  - enabled: 1
+    path: Assets/NewCapstone/Final/05.unity
+    guid: e8966a8c4611c224b938a25e7a426476
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 41740466a2500cb499956a3c01e64398, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b71abdcb0965af745982c15247b1d41a, type: 2}

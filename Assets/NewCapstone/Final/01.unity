@@ -5575,7 +5575,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 1
+          m_StringArgument: 02
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1133269111
@@ -5831,7 +5831,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1187749465}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 65125117}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 03
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1187749465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6719,7 +6731,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1379473393}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 65125117}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 04
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1379473393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7975,8 +7999,8 @@ RectTransform:
   m_Children:
   - {fileID: 1133269109}
   - {fileID: 1187749463}
-  - {fileID: 1838144615}
   - {fileID: 1379473391}
+  - {fileID: 1838144615}
   m_Father: {fileID: 1055723717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -9678,7 +9702,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1838144617}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 65125117}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 05
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1838144617
 MonoBehaviour:
   m_ObjectHideFlags: 0
