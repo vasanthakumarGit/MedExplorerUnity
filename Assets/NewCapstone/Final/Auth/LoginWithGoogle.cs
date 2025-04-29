@@ -19,6 +19,7 @@ public class LoginWithGoogle : MonoBehaviour
 
     public TextMeshProUGUI Username, UserEmail;
     public Image UserProfilePic;
+    public Texture2D defaultProfileTexture;
     //public GameObject MenuPanel;
     public AuthPageNavigator authUIMgr;
 
@@ -157,4 +158,33 @@ public class LoginWithGoogle : MonoBehaviour
             Debug.Log("Error loading image: " + www.error);
         }
     }
+
+    public void Logout()
+    {
+        // Sign out from Firebase
+        if (auth != null)
+        {
+            auth.SignOut();
+        }
+
+        // Sign out from Google
+        //GoogleSignIn.DefaultInstance.SignOut();
+
+        // Clear saved PlayerPrefs data
+        PlayerPrefs.DeleteKey("UserName");
+        PlayerPrefs.DeleteKey("UserEmail");
+        PlayerPrefs.DeleteKey("UserPhoto");
+        PlayerPrefs.Save();
+
+        // Optionally reset the UI
+        Username.text = "";
+        UserEmail.text = "";
+        UserProfilePic.sprite = Sprite.Create(defaultProfileTexture, new Rect(0, 0, defaultProfileTexture.width, defaultProfileTexture.height), new Vector2(0.5f, 0.5f));
+
+        // Navigate back to starting page
+        authUIMgr.OpenStartingPage();
+
+        Debug.Log("User logged out successfully.");
+    }
+
 }

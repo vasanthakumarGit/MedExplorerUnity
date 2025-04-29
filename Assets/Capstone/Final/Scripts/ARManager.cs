@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using System.Collections.Generic;
 
@@ -15,16 +16,24 @@ public class ARManager : MonoBehaviour
     private GameObject placedModel;
     private List<GameObject> modelHistory = new List<GameObject>();
 
+    public Button undoButton;
+    public Button placeButton;
+
     public void EnableARView()
     {
         XROrigin.SetActive(true);
         arSession.SetActive(true);
+        modelPrefab.SetActive(false);
+        // enable planes after placement
+        TogglePlaneManager(true);
     }
 
     public void BackToNormalView()
     {
         XROrigin.SetActive(false);
         arSession.SetActive(false);
+        placeButton.gameObject.SetActive(true);
+        undoButton.gameObject.SetActive(false);
     }
 
     public void PlaceModel()
@@ -34,13 +43,16 @@ public class ARManager : MonoBehaviour
         {
             Pose pose = hits[0].pose;
 
-            GameObject obj = Instantiate(modelPrefab, pose.position, pose.rotation, modelParent);
-
+            //GameObject obj = Instantiate(modelPrefab, pose.position, pose.rotation, modelParent);
+            modelPrefab.transform.position = pose.position;
+            modelPrefab.transform.rotation = pose.rotation;
+            //modelPrefab.transform.SetParent(modelParent);
             // Scale down by dividing original scale by 10
-            obj.transform.localScale = obj.transform.localScale / 10f;
-
-            modelHistory.Add(obj);
-
+            modelPrefab.transform.localScale = new Vector3(0.01f,0.01f,0.01f);
+            modelPrefab.SetActive(true);
+            modelHistory.Add(modelPrefab);
+            undoButton.gameObject.SetActive(true);
+            placeButton.gameObject.SetActive(false);
             // Disable planes after placement
             TogglePlaneManager(false);
         }
@@ -49,18 +61,14 @@ public class ARManager : MonoBehaviour
 
     public void UndoLastPlacement()
     {
-        if (modelHistory.Count > 0)
-        {
-            GameObject last = modelHistory[modelHistory.Count - 1];
-            modelHistory.RemoveAt(modelHistory.Count - 1);
-            Destroy(last);
-        }
 
-        //If no models are left, re-enable planes
-        if (modelHistory.Count == 0)
-        {
-            TogglePlaneManager(true);
-        }
+        modelPrefab.SetActive(false);
+        placeButton.gameObject.SetActive(true);
+        undoButton.gameObject.SetActive(false);
+
+        // enable planes after placement
+        TogglePlaneManager(true);
+
     }
 
     public void SetARModel(GameObject model)

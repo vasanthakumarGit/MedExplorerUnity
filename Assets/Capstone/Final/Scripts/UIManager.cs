@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
         GameObject current = modelManager.GetCurrentARModel();
         if (current != null)
         {
-            arManager.SetARModel(current); // Pass selected model to ARManager
+            //arManager.SetARModel(current); // Pass selected model to ARManager
             modelManager.displayPanel.SetActive(false);
             modelManager.selectionPanel.SetActive(false);
             modelManager.arPanel.SetActive(true);
