@@ -157,16 +157,5 @@ public class SystemControlManager : MonoBehaviour
     }
 
 
-    public void GoToARView()
-    {
-        //modelsPageManager.arManager.ClearAllPlacedModels(); // <-- clear placed models
-        //arManager.ClearAllPlanes();         // clear detected planes
-        modelsPageManager.arManager.BackToNormalView();
-        modelsPageManager.ShowDisplayPage();
-        humanAnatomyModel.SetActive(true);
-        ResetModelTransform();
-    }
-
-
 
 }

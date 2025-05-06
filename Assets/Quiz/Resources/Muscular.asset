@@ -24,7 +24,7 @@ MonoBehaviour:
     - 'Smooth muscle '
     - Cardiac muscle
     - Voluntary muscle
-    correctAns: 'Cardiac muscle '
+    correctAns: Cardiac muscle
   - questionInfo: What do muscles work with to move bones?
     questionType: 0
     questionImage: {fileID: 0}
