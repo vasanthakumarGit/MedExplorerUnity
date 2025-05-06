@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using System.Collections.Generic;
-
+using Lean.Touch;
 public class ARManager : MonoBehaviour
 {
     public ARRaycastManager raycastManager;
@@ -34,6 +34,9 @@ public class ARManager : MonoBehaviour
         arSession.SetActive(false);
         placeButton.gameObject.SetActive(true);
         undoButton.gameObject.SetActive(false);
+        modelPrefab.GetComponent<LeanDragTranslate>().Sensitivity = 1;
+        modelPrefab.GetComponent<LeanTwistRotateAxis>().Sensitivity = 2;
+        modelPrefab.GetComponent<LeanPinchScale>().Relative = true;
     }
 
     public void PlaceModel()
@@ -49,6 +52,9 @@ public class ARManager : MonoBehaviour
             //modelPrefab.transform.SetParent(modelParent);
             // Scale down by dividing original scale by 10
             modelPrefab.transform.localScale = new Vector3(0.01f,0.01f,0.01f);
+            modelPrefab.GetComponent<LeanDragTranslate>().Sensitivity = 0.1f;
+            modelPrefab.GetComponent<LeanTwistRotateAxis>().Sensitivity = 1;
+            modelPrefab.GetComponent<LeanPinchScale>().Relative = false;
             modelPrefab.SetActive(true);
             modelHistory.Add(modelPrefab);
             undoButton.gameObject.SetActive(true);
