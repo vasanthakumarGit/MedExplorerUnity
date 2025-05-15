@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 65125117}
   - component: {fileID: 65125118}
   - component: {fileID: 65125119}
+  - component: {fileID: 65125120}
   m_Layer: 0
   m_Name: AuthManager
   m_TagString: Untagged
@@ -676,6 +677,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GoogleAPI: 594092736595-ania5njkug7lkv3p3nbtjlcf926bbv70.apps.googleusercontent.com
+--- !u!114 &65125120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65125115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f33b714dca61141989368eb183cfde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoginEmail: {fileID: 1064327729}
+  loginPassword: {fileID: 283677240}
+  SignupEmail: {fileID: 1523156076}
+  SignupPassword: {fileID: 1503866372}
+  SignupPasswordConfirm: {fileID: 97357477}
+  loginUi: {fileID: 203409370}
+  signupUi: {fileID: 2042261360}
 --- !u!1 &76151530
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,9 +6885,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829509211}
-        m_TargetAssemblyTypeName: AuthPageNavigator, Assembly-CSharp
-        m_MethodName: openMenuPage
+      - m_Target: {fileID: 65125120}
+        m_TargetAssemblyTypeName: EmailPassLogin, Assembly-CSharp
+        m_MethodName: Login
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11002,9 +11022,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 829509211}
-        m_TargetAssemblyTypeName: AuthPageNavigator, Assembly-CSharp
-        m_MethodName: openMenuPage
+      - m_Target: {fileID: 65125120}
+        m_TargetAssemblyTypeName: EmailPassLogin, Assembly-CSharp
+        m_MethodName: SignUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
