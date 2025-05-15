@@ -526,70 +526,50 @@ MonoBehaviour:
       Short bones, like the carpals and tarsals, provide stability and support. Flat
       bones, including the skull and ribs, protect vital organs.
     audioClip: {fileID: 8300000, guid: 8863f220dab82204c80c5e69f231ad67, type: 3}
-  - dialogueName: Skeletal
+  - dialogueName: Circulatory
     topicImage: {fileID: 21300000, guid: f201b7924a954384591f8f5f355924ad, type: 3}
     sentences:
-    - The skeletal system provides the framework of the body, supporting and protecting
-      organs. It also facilitates movement, stores minerals such as calcium and phosphorus,
-      and houses bone marrow, which produces blood cells.
-    - The skeletal system consists of several key components. Bones form the primary
-      structure, with the adult human body containing 206 bones categorized into
-      the axial and appendicular skeletons.
-    - 'Joints connect bones and allow movement, with types including synovial (freely
-      movable), cartilaginous (slightly movable), and fibrous (immovable) joints. '
-    - Bones are classified into different types based on their structure and function.
-      Long bones, such as the femur and humerus, support weight and facilitate movement.
-      Short bones, like the carpals and tarsals, provide stability and support. Flat
-      bones, including the skull and ribs, protect vital organs.
-    audioClip: {fileID: 8300000, guid: 8863f220dab82204c80c5e69f231ad67, type: 3}
-  - dialogueName: Skeletal
+    - The human circulatory system is made up of a system of arteries, veins, and
+      capillaries, with the heart serving as the pump for blood flow.
+    - ' Its main function is to deliver vital nutrients, minerals, and hormones to
+      different areas of the body. '
+    - the circulatory system plays a crucial role in gathering metabolic waste and
+      toxins from cells and tissues .
+    audioClip: {fileID: 8300000, guid: 31b3e89bfa0ddff4aa7431ec4b23f4e9, type: 3}
+  - dialogueName: Nervous
     topicImage: {fileID: 21300000, guid: f201b7924a954384591f8f5f355924ad, type: 3}
     sentences:
-    - The skeletal system provides the framework of the body, supporting and protecting
-      organs. It also facilitates movement, stores minerals such as calcium and phosphorus,
-      and houses bone marrow, which produces blood cells.
-    - The skeletal system consists of several key components. Bones form the primary
-      structure, with the adult human body containing 206 bones categorized into
-      the axial and appendicular skeletons.
-    - 'Joints connect bones and allow movement, with types including synovial (freely
-      movable), cartilaginous (slightly movable), and fibrous (immovable) joints. '
-    - Bones are classified into different types based on their structure and function.
-      Long bones, such as the femur and humerus, support weight and facilitate movement.
-      Short bones, like the carpals and tarsals, provide stability and support. Flat
-      bones, including the skull and ribs, protect vital organs.
-    audioClip: {fileID: 8300000, guid: 8863f220dab82204c80c5e69f231ad67, type: 3}
-  - dialogueName: Skeletal
+    - The nervous system, also known as the neural system, is a sophisticat ed network
+      of neurons specialized for message transmission.
+    - In the human body, the neurological system coordinates organ actio ns depending
+      on stimuli detected and sent by neurons.
+    - 'They use electrical impulses to carry messages to and from the sense organs.
+      connect bones and allow movement, with types including synovial (freely movable),
+      cartilaginous (slightly movable), and fibrous (immovable) joints. '
+    audioClip: {fileID: 8300000, guid: 0446fe06adb5a4e4797266a58c5cf8c0, type: 3}
+  - dialogueName: Digestive
     topicImage: {fileID: 21300000, guid: f201b7924a954384591f8f5f355924ad, type: 3}
     sentences:
-    - The skeletal system provides the framework of the body, supporting and protecting
-      organs. It also facilitates movement, stores minerals such as calcium and phosphorus,
-      and houses bone marrow, which produces blood cells.
-    - The skeletal system consists of several key components. Bones form the primary
-      structure, with the adult human body containing 206 bones categorized into
-      the axial and appendicular skeletons.
-    - 'Joints connect bones and allow movement, with types including synovial (freely
-      movable), cartilaginous (slightly movable), and fibrous (immovable) joints. '
-    - Bones are classified into different types based on their structure and function.
-      Long bones, such as the femur and humerus, support weight and facilitate movement.
-      Short bones, like the carpals and tarsals, provide stability and support. Flat
-      bones, including the skull and ribs, protect vital organs.
-    audioClip: {fileID: 8300000, guid: 8863f220dab82204c80c5e69f231ad67, type: 3}
-  - dialogueName: Skeletal
+    - 'The human digestive system consists of a collection of organs that collaborate
+      to transform food into energy for the body. It includes the gastrointestinal
+      tract and accessory organs like the liver, pancreas, and gallbladder. '
+    - The gastrointestinal tract is made up of hollow organs such as the mouth, stomach,
+      esophagus, small intestine, and large intestine, which contains the rectum
+      and anus.
+    - 'This essential process allows living organisms to derive energy from various
+      sources. '
+    - Humans and other animals possess specialized organs and systems to facilitate
+      this process.
+    audioClip: {fileID: 8300000, guid: 1b0e253bf3ff2914899c8776640e99fc, type: 3}
+  - dialogueName: Respiratory
     topicImage: {fileID: 21300000, guid: f201b7924a954384591f8f5f355924ad, type: 3}
     sentences:
-    - The skeletal system provides the framework of the body, supporting and protecting
-      organs. It also facilitates movement, stores minerals such as calcium and phosphorus,
-      and houses bone marrow, which produces blood cells.
-    - The skeletal system consists of several key components. Bones form the primary
-      structure, with the adult human body containing 206 bones categorized into
-      the axial and appendicular skeletons.
-    - 'Joints connect bones and allow movement, with types including synovial (freely
-      movable), cartilaginous (slightly movable), and fibrous (immovable) joints. '
-    - Bones are classified into different types based on their structure and function.
-      Long bones, such as the femur and humerus, support weight and facilitate movement.
-      Short bones, like the carpals and tarsals, provide stability and support. Flat
-      bones, including the skull and ribs, protect vital organs.
-    audioClip: {fileID: 8300000, guid: 8863f220dab82204c80c5e69f231ad67, type: 3}
+    - The respiratory system consists of the organs and structures that enable breathing.
+    - there are muscles and blood vessels that assist the respiratory system, along
+      with ribs that provide protection.
+    - All these components collaborate to take in oxygen when you breathe in and
+      eliminate carbon dioxide when you breathe out.
+    audioClip: {fileID: 8300000, guid: a993a66b4344ee640949f53e2d6ade58, type: 3}
   topicButtons:
   - {fileID: 1075257378}
   - {fileID: 1317166603}
