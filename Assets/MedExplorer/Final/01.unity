@@ -696,6 +696,7 @@ MonoBehaviour:
   SignupPasswordConfirm: {fileID: 97357477}
   loginUi: {fileID: 203409370}
   signupUi: {fileID: 2042261360}
+  authUIMgr: {fileID: 829509211}
 --- !u!1 &76151530
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.144, y: -127.58}
+  m_AnchoredPosition: {x: -59.144043, y: -127.58008}
   m_SizeDelta: {x: 135, y: 135}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &83709068
@@ -10802,7 +10803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 59.144, y: -150}
+  m_AnchoredPosition: {x: 59.144043, y: -150}
   m_SizeDelta: {x: 669.15, y: 90.1689}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1957426836
